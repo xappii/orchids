@@ -4,7 +4,7 @@
 
 .header {
     font-size: 40px;
-    font-size: min(max(22px, 6vw), 50px);
+    font-size: min(max(22px, 6vw), 50px); /* source: https://css-tricks.com/simplified-fluid-typography/ */
     height: 10vh; /* this is prob bad practice */
     display: flex;
     justify-content: center;
