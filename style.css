@@ -3,9 +3,8 @@
 }
 
 .header {
-    font-size: 40px;
-    font-size: min(max(22px, 6vw), 50px); /* source: https://css-tricks.com/simplified-fluid-typography/ */
-    height: 10vh; /* this is prob bad practice */
+    font-size: min(max(22px, 7vw), 50px); /* source: https://css-tricks.com/simplified-fluid-typography/ */
+    height: calc(min(max(22px, 7vw), 50px) * 3); /* this is prob bad practice */
     display: flex;
     justify-content: center;
     align-items: center;
