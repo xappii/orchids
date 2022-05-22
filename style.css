@@ -2,6 +2,14 @@
     font-family: 'Roboto Slab', serif;
 }
 
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header {
     font-size: min(max(22px, 7vw), 50px); /* source: https://css-tricks.com/simplified-fluid-typography/ */
     height: calc(min(max(22px, 7vw), 50px) * 3); /* this is prob bad practice */
@@ -30,4 +38,20 @@ img {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+}
+
+.footer {
+    background-color: rgb(139, 139, 139);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.footer p {
+    margin: 0px;
+    max-width: 820px;
 }
