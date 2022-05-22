@@ -2,6 +2,15 @@
     font-family: 'Roboto Slab', serif;
 }
 
+.header {
+    font-size: 40px;
+    font-size: min(max(22px, 6vw), 50px);
+    height: 10vh; /* this is prob bad practice */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     max-width: 200px;
 }
